@@ -1,0 +1,95 @@
+#insta-container{
+    display: inline-block;
+}
+#card {
+    margin-top: 25px;
+    width: 800px;
+    height: 650px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+
+.card-header {
+    padding: 15px;
+    width: 740px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-header-name {
+    width: 58px;
+    height: 28px;
+    text-align: left;
+    font: normal normal bold 28px/34px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.card-place{
+width: 123px;
+height: 29px;
+text-align: left;
+font: normal normal normal 24px/29px Verdana;
+letter-spacing: 0px;
+color: #707070;
+}
+.share{
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+.shareIcon{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+.card-image > img{
+    width: 800px;
+    height: 400px;
+}
+.card-action{
+    margin: 15px;
+}
+.card-action > .like{
+    width: 32px;
+height: 32px;
+float: left;
+}
+.card-action > .share{
+    width: 32px;
+height: 32px;
+margin-left: 10px;
+float: left;
+
+}
+.card-action > .date{
+    float: right;
+height: 24px;
+font: normal normal normal 20px/24px Verdana;
+}
+.likes{
+height: 24px;
+text-align: left;
+font: normal normal normal 20px/24px Verdana;
+letter-spacing: 0px;
+color: #707070;
+margin: 15px;
+margin-top: 50px;
+}
+#desciption{
+    width: 450px;
+height: 28px;
+text-align: left;
+font: normal normal bold 28px/34px Helvetica;
+letter-spacing: 0px;
+color: #000000;
+margin: 15px;
+
+}
+.shareIcon{
+    float: left;
+    margin-left: 10px;
+}
+

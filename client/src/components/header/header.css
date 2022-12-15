@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 90px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+
+}
+.logo > img{
+    width: 50px;
+}
+.textLogo{
+    font: normal normal normal 60px/71px Palatino;
+    color: #006238;
+    margin: 0px;
+    bottom-border:none;
+}
+.camera-icon{
+    align-self: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
